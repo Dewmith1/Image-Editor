@@ -17,9 +17,9 @@ async def photo(client: Client, message: Message):
                         InlineKeyboardButton(text="B&W😙", callback_data="b|w"),
                     ],
                     [
-                        InlineKeyboardButton(text="CIRCLE😎�", callback_data="circle"),
-                        InlineKeyboardButton(text="BLUR", callback_data="blur"),
-                        InlineKeyboardButton(text="BORDER", callback_data="border"),
+                        InlineKeyboardButton(text="CIRCLE😎", callback_data="circle"),
+                        InlineKeyboardButton(text="BLUR😯", callback_data="blur"),
+                        InlineKeyboardButton(text="BORDER👻", callback_data="border"),
                     ],
                     [
                         InlineKeyboardButton(text="STICKER❤️", callback_data="stick"),
@@ -35,7 +35,7 @@ async def photo(client: Client, message: Message):
                         InlineKeyboardButton(text="INVERT😍", callback_data="inverted"),
                         InlineKeyboardButton(text="GLITCH😍", callback_data="glitch"),
                         InlineKeyboardButton(
-                            text="REMOVE BG", callback_data="removebg"
+                            text="REMOVE BG🤖", callback_data="removebg"
                         ),
                     ],
                     [
