@@ -107,11 +107,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("HELP", callback_data="help_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("dev", callback_data="@IMkashyapaa"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "join with us", url="https://t.me/cgs_official"
                     )
                 ],
             ]
@@ -127,11 +127,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton("BACK", callback_data="start_data"),
-                    InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                    InlineKeyboardButton("contact me", callback_data="@IMkashyapaa"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "join with us", url="https://t.me/cgs_official"
                     )
                 ],
             ]
@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "join with us", url="https://t.me/cgs_official"
                     )
                 ],
             ]
